@@ -1,2 +1,2 @@
 # C_Fundamentals
-To learn C 
+One file that will help to learn C 
