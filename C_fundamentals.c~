@@ -113,7 +113,7 @@ void subtract(int add, int sub) {
 	}
 void multiply(int add, int sub) {
 	printf("Result: %d",add * sub);
-	}					//Note that this whole snippet is at the beginning of the code
+	}					//Note that this whole code is at the beginning of the code
 
 */
 

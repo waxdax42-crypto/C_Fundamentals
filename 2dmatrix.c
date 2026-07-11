@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main() {
+	int matrix [2][3] = {
+		{1,2,3},
+		{4,5,6}
+	};
+//	printf("%d\n", matrix[1][2]);
+for(int r=0; r<2; r++) {
+	for(int c=0; c<3; c++) {
+		printf("\t%d\t",matrix[r][c]);
+		}
+		printf("\n");
+	}	
+	
+	printf("Now we will multiply the matrix against this [7 ,8 ,9]\n");
+	int input[3] = {7,8,9};
+	int output[2] = {0};
+	for(int r=0; r<2; r++) {
+		for(int c=0; c<3; c++) {
+			output[r] += matrix[r][c]*input[c];
+		}
+			printf("\t%d\t", output[r]);
+		printf("\n");
+	}
+
+	return 0;
+}
